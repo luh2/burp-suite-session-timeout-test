@@ -207,8 +207,8 @@ public class BurpExtender implements IBurpExtender, IContextMenuFactory {
 
 			//TODO: Add an informational entry to the scanner issues?
 		    }
-		    
-		    nextInterval += interval;
+		    interval *= 2
+		    nextInterval = interval;
 		    timeUntilNextTest = nextInterval *60;
 		}
 		
